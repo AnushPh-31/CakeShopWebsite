@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake Bakery</title>
+    <link rel="shortcut icon" type="image" href="./image/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap links -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- bootstrap links -->
+    <!-- fonts links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Uchen&display=swap" rel="stylesheet">
+    <!-- fonts links -->
+    <!-- icons links -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!-- icons links -->
+   
+</head>
+<body>
+    <div class="all-content">
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-md" id="navbar">
+            <!-- Brand -->
+            <a class="navbar-brand" href="#" id="logo"><img src="./image/logo.png" alt="" width="50px">Cake Bakery</a>
+          
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span><img src="./image/menu.png" alt="" width="30px"></span>
+            </button>
+          
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cake.html">Cakes</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="gallary.html">Gallary</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./feedback.html">feedback</a>
+                </li>
+              </ul>
+            </div>
+            <div class="icons">
+                <img src="./image/user.png" alt="" width="20px">
+                <img src="./image/heart.png" alt="" width="20px">
+                <img src="./image/add.png" alt="" width="24px">
+            </div>
+          </nav>
+        <!-- navbar end -->
+
+
+  <section class="fedback">
+    <div class="container-flud  pt-1">
+      <div class="row ">
+        <div style="background-color: #573818; padding-top: 100px; padding-left: 150px; height: 100vh;"
+          class="col-md-6 col-lg-6 col-sm-12 col-12    ">
+
+          <div  class="fedbacke_text">
+            <form action="">
+
+
+            <label style="color: white;"  class=" py-3" for="">Your Name</label>
+            <input style="width: 80%; height: 35px;" type="text" id="name" name="name" class="form-control text-center"
+              placeholder="name">
+
+            <label style="color: white;"  class=" py-3" for="">Your Phone number</label>
+            <input style="width: 80%; height: 35px;" type="number" id="number" name="number"
+              class="form-control text-center" placeholder="Enter your Number">
+
+
+            <label style="color: white;" class=" py-3" for="">Email</label>
+            <input style="width: 80%; height: 35px;" type="email" id="email" name="email"
+              class="form-control text-center" placeholder=" Enter email">
+
+
+            <label style="color: white;" class=" py-3" for="">date</label>
+            <input style="width: 40%; height: 35px;" type="date" id="data" name="email" class="form-control text-center"
+              placeholder=" birth'date">
+               
+
+             
+              <textarea style="border-radius: 10px;" class="mt-5" name="massage  " id="massage" placeholder="massage"> massage</textarea> <br>
+
+            <button  type="submit" style=" color: white; border-radius: 5px; margin-top: 20px; background-color: rgb(183, 68, 68);"  onclick="msg()">
+              submit</button>
+            </form>
+          </div>
+
+        </div>
+
+        <div style="background-color: rgba(161,109,14,1); height: 100vh;" class="col-md-6 col-lg-6 col-sm-12 col-12  py-5 ">
+
+          <img class="img-flud" style=" width: 100%; height: auto; " src="./image/background.png"
+            alt="">
+        </div>
+
+
+      </div>
+
+    </div>
+  </section>
+
+  
+      <!-- footer -->
+      <footer id="footer" style="padding-top: -100px;"   data-aos="fade-up"
+      data-aos-duration="1500">
+        <h1 class="text-center">Cake Bakery</h1>
+        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, accusantium.</p>
+        <div class="icons text-center">
+            <i class="bx bxl-twitter"></i>
+            <i class="bx bxl-facebook"></i>
+            <i class="bx bxl-google"></i>
+            <i class="bx bxl-skype"></i>
+            <i class="bx bxl-instagram"></i>
+        </div>
+        <div class="copyright text-center">
+            &copy; Copyright <strong>Cake Bakery</strong> .All Rights Reserved
+        </div>
+        <div class="credite text-center">
+            Designed By <a href="#"><span>SA coding</span></a>
+        </div>
+      </footer>
+      <!-- footer -->
+
+
+
+    </div>
+
+
+
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.6.4/dist/email.min.js"></script>
+
+
+  <script type="text/javascript">
+      (function(){
+          emailjs.init("fHC1yNdfLfTyoZZPy"); // Replace with your EmailJS user ID or public key
+      })();
+  
+      document.getElementById('fedbacke_text').addEventListener('submit', function(event) {
+          event.preventDefault();
+  
+          // Get form values
+          let name = document.getElementById('name').value.trim();
+          let number = document.getElementById('number').value.trim();
+          let email = document.getElementById('email').value.trim();
+          let data = document.getElementById('datas').value.trim();
+  
+          // Validate inputs
+          if (!name || !mobile || !email || !message) {
+              document.getElementById('statusMessage').innerHTML = '<div class="alert alert-danger">All fields are required.</div>';
+              return;
+          }
+  
+          // Create template parameters
+          let templateParams = {
+              name: name,
+              mobile: mobile,
+              email: email,
+              message: message
+          };
+  
+          // Send email using EmailJS
+          emailjs.send('service_avoobw9', 'template_f42ibns', templateParams)
+              .then(function(response) {
+                  document.getElementById('statusMessage').innerHTML = '<div class="alert alert-success">Message sent successfully!</div>';
+                  // Clear form fields
+                  document.getElementById('contactForm').reset();
+              }, function(error) {
+                  document.getElementById('statusMessage').innerHTML = '<div class="alert alert-danger">Failed to send message. Please try again later.</div>';
+              });
+      });
+  </script>
+
+  <script>
+     function msg(){
+      alert(" thankes ")
+    }
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
